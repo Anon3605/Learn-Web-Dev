@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h3>Hello World</h3>
+            <h1>Wanna Learn HTML</h1>
+        </div>
+        <a href="C1_paragraph,bold_v_strong,italic,small.html">Explore From Here</a>
+    </header>
+    <section>
+        <span>Repo Owner</span>
+        <span>==</span>
+        <a href="#" class="portfolio">Md. Arafat Sarkar</a>
+    </section>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            gap: 0px;
+            font-family: cursive;
+        }
+        body{
+            background-image: url(index.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h3{
+            text-align: center;
+            padding: 5%;
+            color: rgb(100, 100, 100);
+
+        }
+        h1{
+            align-self: center center center center;
+            text-align: center;
+            color: rgb(100, 100, 100);
+            font-weight: 1000;
+        }
+        header{
+            align-items: center;
+            position: relative;
+            /* position: fixed; */
+            height: 96vh;
+            width: 100%;
+        }
+        header a{  
+            /* position: absolute; */
+            width: 150px;
+            text-decoration: none;
+            color: rgb(100, 100, 100);
+            display: inline block;
+            text-align: center;
+            padding: 6px;
+            border-style: solid;
+            border-color:rgb(100, 100, 100);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        section{
+            font-size: small;
+            display: flex;
+            color: white;
+            height: 4vh;
+            width: 100%;
+            position: absolute;
+            background-color: rgb(51, 49, 49);
+            justify-content: space-between;
+        }
+        span{
+            padding-left: 10px;
+        }
+
+        .portfolio{
+            text-decoration:underline;
+            color: white;
+            padding-right: 10px;
+        }
+        .portfolio:hover{
+                color: rgb(238, 118, 118);
+                transition: .3s;
+            }
+        header a:hover{
+            color: white;
+            background-color:rgb(100, 100, 100) ;
+            transition: .3s;
+            border-color: rgb(146, 144, 144);
+        }
+
+
+        
+    </style>
+
+</body>
+</html>
+
